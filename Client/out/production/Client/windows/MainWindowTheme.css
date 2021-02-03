@@ -1,0 +1,118 @@
+.tr-background {
+    -fx-background-color: transparent;
+    -fx-border-style: none;
+}
+
+.button {
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-width: 0.8px;
+    -fx-border-color: gray;
+    -fx-border-radius: 8px;
+    -fx-font-family: "Segoe UI";
+}
+
+.button:hover {
+    -fx-background-color: gray;
+}
+
+.buttontr {
+    -fx-background-radius: 8px;
+    -fx-text-fill: white;
+    -fx-border-width: 0.8px;
+    -fx-border-radius: 8px;
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+
+.buttontr:hover {
+    -fx-background-color: black;
+    -fx-border-color: black;
+}
+
+.header-button {
+    -fx-background-radius: 1px;
+    -fx-background-color: #3cd2fd;
+    -fx-border-color: transparent;
+}
+
+.header-button.close:hover {
+    -fx-background-color: #dd6660;
+}
+
+.header-button.max:hover {
+    -fx-background-color: #85c343;
+}
+
+.header-button.min:hover {
+    -fx-background-color: #f5b74f;
+}
+
+.list-view{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 30px 30px;
+    -fx-background-position: 5px center;
+    -fx-padding-left: 40px;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: gray 25%;
+}
+
+.list-cell:selected {
+    -fx-background-color: white 90%;
+    -fx-text-fill: black;
+}
+
+.list-view .scroll-bar:horizontal ,
+.list-view  .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.list-view .increment-button ,.list-view .decrement-button {
+    -fx-background-color:transparent;
+}
+
+.list-view .scroll-bar:horizontal .thumb,
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(white,50%);
+
+}
+
+.list-view .scroll-bar:horizontal:hover .track ,
+.list-view .scroll-bar:horizontal:pressed .track ,
+.list-view .scroll-bar:vertical:hover .track,
+.list-view .scroll-bar:vertical:pressed .track{
+    -fx-opacity: 0.2;
+}
+
+.list-view .scroll-bar .thumb:hover,
+.list-view .scroll-bar .thumb:pressed{
+    -fx-background-color: derive(white,50%);
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-background-image: url("../img/Search.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 15px 15px;
+    -fx-background-position: right center;
+    -fx-border-color: transparent transparent white transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: gray;
+    -fx-font-family: "Segoe UI";
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI";
+}
